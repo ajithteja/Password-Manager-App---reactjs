@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  padding: 26px;
+  padding-left: 58px;
+}
+
+.main-logo {
+  height: 58px;
+}
+
+.first-container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 48px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  background-color: #454f84;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  width: 50%;
+}
+
+.sub-head {
+  font-family: 'roboto';
+  color: #f8fafc;
+  font-size: 23px;
+}
+
+.input-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.logo-container {
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 43px;
+  border-width: 0;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: #939cce;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.logo {
+  height: 20px;
+}
+
+.user-input {
+  font-family: 'roboto';
+  font-weight: 500;
+  height: 43px;
+  flex-grow: 1;
+  padding: 8px;
+  outline: none;
+  border-width: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.button {
+  align-self: flex-end;
+  border-width: 0;
+  padding: 7px;
+  width: 65px;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #f8fafc;
+  background-color: #0b69ff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.theme-img {
+  width: 40%;
+  max-width: 380px;
+}
+
+.theme-sm-img {
+  display: none;
+}
+
+.second-container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 48px;
+  padding-top: 28px;
+  margin-top: 12px;
+}
+
+.password-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.your-password {
+}
+
+.count-text {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-right: 8px;
+}
+
+.count {
+  font-size: 12px;
+  background-color: transparent;
+  border-radius: 9px;
+  border-style: solid;
+  border-color: #f8fafc;
+  border-width: 1px;
+  padding: 1px;
+  padding-left: 9px;
+  padding-right: 9px;
+  color: #f8fafc;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    padding: 18px;
+  }
+
+  .main-logo {
+    height: 43px;
+  }
+  .first-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  .user-input {
+    width: 100px;
+  }
+
+  .theme-img {
+    display: none;
+  }
+
+  .theme-sm-img {
+    display: inline;
+    width: 80%;
+    min-width: 200px;
+    margin-bottom: 15px;
+    order: -1;
+  }
+
+  .count-text {
+    font-size: 15px;
+  }
+
+  .count {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.second-container {
+  padding: 18px;
+}
+
+.search-box {
+  background-color: #f8fafc;
+  height: 28px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 0;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.search-img {
+  height: 18px;
+  width: 18px;
+}
+
+.search-input {
+  font-family: 'roboto';
+  font-weight: 500;
+  height: 28px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-width: 0;
+  border-style: solid;
+  border-left-width: 1px;
+  padding: 8px;
+  outline: none;
+}
+
+.hr-line {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #939cce;
+  margin-top: 5px;
+}
+
+.show-password-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+input[type='checkbox'] {
+  transform: scale(1.2);
+  border: none;
+}
+
+.checked-text {
+  color: #f8fafc;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.ul-list-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-passwords {
+  width: 43%;
+  min-width: 280px;
+}
+
+.no-password-text {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8fafc;
+}

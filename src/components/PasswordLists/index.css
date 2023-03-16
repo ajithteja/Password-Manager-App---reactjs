@@ -1,0 +1,104 @@
+.colour1 {
+  background-color: #0b69ff;
+}
+
+.colour2 {
+  background-color: #94a3b8;
+}
+
+.colour3 {
+  background-color: #b6c3ca;
+}
+
+.colour4 {
+  background-color: #7683cb;
+}
+
+.colour5 {
+  background-color: #f59e0b;
+}
+
+.colour6 {
+  background-color: #10b981;
+}
+
+.colour7 {
+  background-color: #f97316;
+}
+
+.colour8 {
+  background-color: #14b8a6;
+}
+
+.colour9 {
+  background-color: #b91c1c;
+}
+
+.colour10 {
+  background-color: #0ea5e9;
+}
+
+.li-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #939cce;
+  border-radius: 3px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  width: 280px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.profile {
+  margin: 0;
+  padding: 0;
+  height: 43px;
+  width: 43px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.first-letter {
+  color: #f8fafc;
+  font-family: 'roboto';
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.url {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 13px;
+  color: #f8fafc;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.username {
+}
+
+.start {
+  height: 15px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  padding: 0;
+  border-width: 0;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.delete-img {
+  height: 20px;
+}
